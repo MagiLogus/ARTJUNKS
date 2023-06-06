@@ -9,10 +9,9 @@
     font-size: 80px;
     line-height: 99px;
     color: #FFFFFF;
-    border: 1px solid #FFFFFF;
 }
 
-* h2 {
+h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -21,7 +20,7 @@
     color: #000000;
 }
 
-* h3 {
+h3 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -30,7 +29,7 @@
     color: #FFFFFF;
 }
 
-* h4 {
+h4 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -39,7 +38,7 @@
     color: #000000;
 }
 
-* h5, a {
+h5, a, .btn {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -48,7 +47,7 @@
     color: #FFFFFF;
 }
 
-* span {
+span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
