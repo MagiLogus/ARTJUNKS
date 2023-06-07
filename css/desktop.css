@@ -59,6 +59,7 @@ main section .background {
     display: flex;
     background-image: url(/assets/image/background.png);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -74px;
 }
 
