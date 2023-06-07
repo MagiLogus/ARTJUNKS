@@ -103,7 +103,7 @@ main section .newsest .card-box {
 }
 
 main section .newsest .card-box .news-card {
-    width: 335px;
+    width: 450px;
     height: 635px;
     display: flex;
     align-items: center;
