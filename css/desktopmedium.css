@@ -1,10 +1,5 @@
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     
-    .grid-container {
-        width: 95%;
-        max-width: 95%;
-    }
-
     main section .newsest .card-box .news-card {
         width: 500px;
         height: 650px;
