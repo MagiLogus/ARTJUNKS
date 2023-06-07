@@ -1,12 +1,19 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+    .grid-container {
+        width: 90%;
+        max-width: 90%;
+    }
+    
     * h1 {
         font-size: 50px;
         line-height: 62px;
     }
 
-    h5, a, .btn {
-    font-size: 15px;
+    h5,
+    a,
+    .btn {
+        font-size: 15px;
     }
 
     header .header .menu-box {
