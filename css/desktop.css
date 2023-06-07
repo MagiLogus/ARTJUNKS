@@ -7,7 +7,7 @@
 .grid-container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1350px;
 }
 
 /* Header */
@@ -17,11 +17,15 @@ header .header {
     height: 42px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 32px;
 }
 
-header .header h3 {
-    margin-right: 485px;
+header .menu-box {
+    width: 724px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .header .menu {
@@ -43,6 +47,10 @@ header .header .menu a {
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     background: transparent;
+}
+
+header .header .menu-hamb {
+    display: none;
 }
 
 main section .background {
@@ -94,7 +102,7 @@ main section .newsest .card-box {
 }
 
 main section .newsest .card-box .news-card {
-    width: 419px;
+    width: 335px;
     height: 635px;
     display: flex;
     align-items: center;
@@ -103,20 +111,26 @@ main section .newsest .card-box .news-card {
     border-radius: 4px;
 }
 
+main section .newsest .card-box .news-card img {
+    width: 100%;
+    height: 350px;
+}
+
 main section .newsest .card-box .news-card .card-text {
-    width: 355px;
-    height: 216px;
+    width: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 26px;
-    margin-top: 35px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 main section .newsest .card-box .news-card .card-text span:nth-child(1) {
     color: #B7B7B7;
 }
 
-main section .newsest .card-box .news-card .card-text span:nth-child(3) {
+main section .newsest .card-box .news-card span:nth-child(3) {
     color: #D9852C;
-    text-align: right;
+    margin-left: 183px;
+    margin-bottom: 25px;
 }

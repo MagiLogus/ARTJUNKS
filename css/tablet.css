@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+    header .header .menu-box {
+        display: none;
+    }
+
+     header .header .menu-hamb {
+        display: flex;
+     }
+
+     header .header .menu-hamb img{
+        width: 48px;
+        height: 48px;
+     }
+
+     main section .newsest {
+        height: 2097px;
+    }
+
+    main section .newsest .card-box {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .newsest .card-box .news-card {
+        width: 500px;
+        height: 620px;
+    }
+}

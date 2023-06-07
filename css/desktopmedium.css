@@ -1,0 +1,7 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    main section .newsest .card-box .news-card {
+        width: 420px;
+        height: 650px;
+    }
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    * h1 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    h5, a, .btn {
+    font-size: 15px;
+    }
+
+    header .header .menu-box {
+        display: none;
+    }
+
+    header .header .menu-hamb {
+        display: flex;
+    }
+
+    header .header .menu-hamb img {
+        width: 48px;
+        height: 48px;
+    }
+
+    main section .newsest {
+        height: 2097px;
+    }
+
+    main section .newsest .card-box {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .newsest .card-box .news-card {
+        width: 315px;
+        height: 600px;
+    }
+}
