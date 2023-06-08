@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=PROJETOCONCLUÍDO&color=green&style=for-the-badge" #vitrinedev/>
+   [![STATUS - PROJETO CONCLUÍDO](https://img.shields.io/badge/STATUS-PROJETO_CONCLUÍDO-GREEN?style=for-the-badge)]
 </p>
 
 ### Tópicos 
